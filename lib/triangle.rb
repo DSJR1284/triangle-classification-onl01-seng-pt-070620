@@ -11,9 +11,9 @@ class Triangle
       return :equilateral
     elsif @s1 == @s2 || @s2 == @s3 || @s1 == @s3
       return :isosceles
-    else
+    elsif
       return :scalene
-    end
+    elsif
     if @s1 == nil &&  @s2 == nil && @s3 == nil
       raise TriangleError
     elsif @s1 > 0 && @s2 > 0 && @s3 >0
