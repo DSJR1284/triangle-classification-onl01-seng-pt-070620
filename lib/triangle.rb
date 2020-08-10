@@ -12,7 +12,7 @@ class Triangle
     elsif @s1 > 0 && @s2 > 0 && @s3 >0
       raise TriangleError
     end
-    
+
     if @s1 == @s2 && @s1 == @s3
       return :equilateral
     elsif @s1 == @s2 || @s2 == @s3 || @s1 == @s3
