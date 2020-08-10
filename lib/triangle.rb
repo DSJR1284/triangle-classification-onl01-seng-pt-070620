@@ -7,7 +7,7 @@ class Triangle
   end
 
   def kind
-    if @s1 == nil &&  @s2 == nil && @s3 == nil
+    if @s1 == nil ||  @s2 == nil || @s3 == nil
       raise TriangleError
     elsif @s1 < 0 && @s2 < 0 && @s3 < 0
       raise TriangleError
