@@ -13,7 +13,7 @@ class Triangle
       return :isosceles
     else
       return :scalene
-    elsif
+    end
     if @s1 == nil &&  @s2 == nil && @s3 == nil
       raise TriangleError
     elsif @s1 > 0 && @s2 > 0 && @s3 >0
