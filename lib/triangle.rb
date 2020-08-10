@@ -7,6 +7,7 @@ class Triangle
   end
 
   def kind
+    
     if @s1 == @s2 && @s1 == @s3
       return :equilateral
     elsif @s1 == @s2 || @s2 == @s3 || @s1 == @s3
@@ -14,11 +15,7 @@ class Triangle
     else
       return :scalene
     end
-    if @s1 == nil &&  @s2 == nil && @s3 == nil
-      raise TriangleError
-    elsif @s1 > 0 && @s2 > 0 && @s3 >0
-      raise TriangleError
-    end
+    
   end
 end
 
