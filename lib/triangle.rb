@@ -20,6 +20,7 @@ class Triangle
       raise TriangleError
     elsif
   end
+end
 
   class TriangleError < StandardError
      def message
