@@ -18,7 +18,6 @@ class Triangle
       raise TriangleError
     elsif @s1 > 0 && @s2 > 0 && @s3 >0
       raise TriangleError
-    elsif
   end
 end
 
