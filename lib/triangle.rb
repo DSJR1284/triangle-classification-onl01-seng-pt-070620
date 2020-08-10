@@ -21,7 +21,7 @@ class Triangle
       return :scalene
     end
   end
-end
+
 
   class TriangleError < StandardError
      def message
